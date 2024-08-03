@@ -1,0 +1,190 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("* Xploits-Hub V1 *", "LightTheme")
+
+local Main = Window:NewTab("Hub-$ *dev*")
+local MainSection = Main:NewSection("GetYourHub!")
+
+MainSection:NewButton("Gh0$tHub", "Hub", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Ghost-hub-15223"))()
+end)
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "ScreenGui"
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+ 
+local Toggle = Instance.new("TextButton")
+Toggle.Name = "Toggle"
+Toggle.Parent = ScreenGui
+Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
+Toggle.Size = UDim2.new(0, 90, 0, 38)
+Toggle.Font = Enum.Font.SourceSans
+Toggle.Text = "Toggle"
+Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
+Toggle.TextSize = 28.000
+Toggle.Draggable = true
+Toggle.MouseButton1Click:connect(function()
+    Library:ToggleUI()
+end)
+ 
+local Corner = Instance.new("UICorner")
+Corner.Name = "Corner"
+Corner.Parent = Toggle
+
+
+MainSection:NewButton("Multi Scripter-X", "Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Multi-Scripter-X/main/loader"))()
+end)
+
+
+
+MainSection:NewButton("Hxcker 666 *OP*", "Hub", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/FreeRobloxScripts1/Haxker_6666666-Hub/main/loader'))()
+end)
+
+MainSection:NewButton("Sc4iptHubz *600+*", "Hub", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV3/main/SCRIPTHUBV3", true))()
+end) 
+
+
+
+MainSection:NewButton("G-Hub *OP*", "Hub", function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/TAXwL2at"))()
+end) 
+
+
+
+MainSection:NewButton("Sc4iptHubz *600+*", "Hub", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/SCRIPTHUBV3/main/SCRIPTHUBV3", true))()
+end) 
+
+
+
+local SecondSection = Main:NewSection("GetYourHub2!")
+
+
+SecondSection:NewButton("GigaChadzHub", "Hub", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Protected_3038811338432694.lua.txt"))()
+end)
+
+SecondSection:NewButton("Holf-Hub *OP*", "Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/main/Universal"))()
+end)
+
+
+
+SecondSection:NewButton("BidoSkinz *AwesomeHub!*", "Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.9"))()
+end)
+
+
+
+SecondSection:NewButton("VsckHub *OP*", "Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/VcskV/main/Hub/main.lua", true))()
+end)
+
+SecondSection:NewButton("System-Hub *OP*", "Hub", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-System-hub-V2-13161"))()
+end)
+
+
+local Noob = Window:NewTab("GameHub *dev*")
+local NoobSection = Noob:NewSection("MM2")
+
+
+
+NoobSection:NewButton("Vynixu's Mm2 *OP*", "GameHub", function()
+    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+NoobSection:NewButton("Juanko MM2 *SIMPLE*", "GameHub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Juanko-Scripts/Roblox-scripts/main/Juanko%20Murder%20MM2"))()
+end)
+
+
+NoobSection:NewButton("SR- Mm2 *OP*", "GameHub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/pcallskeleton/CE-Technologies/main/script', true))()
+end)
+
+
+
+NoobSection:NewButton("NexusHub Mm2 *OP*", "GameHub", function()
+    loadstring(game:HttpGet("https://egorikusa.space/edb1b919d1ee740df14d280a.lua", true))()
+end)
+
+local DaSection = Noob:NewSection("Dahood")
+
+DqSection:NewButton("Tbo-Hub", "GameHub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/cool5013/TBO/main/TBOscript'))()
+end)
+
+
+
+local Sui = Window:NewTab("FE-Tab")
+local SuiSection = Sui:NewSection("FE-IsTheWorst")
+
+
+SuiSection:NewButton("GenesisScriptLoader", "Eend2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EEND2SCRIPTS/Genesis-FE-Loader-Mine-/main/Genesis%20FE%20Loader%20Mine"))();
+end)
+
+local SuiSection = Sui:NewSection("I cant find no FE scripts")
+local SuiSection = Sui:NewSection("This tab is completed")
+local SuiSection = Sui:NewSection("Note: You can recommend scripts in the comments")
+
+
+local Sui = Window:NewTab("Guis-Tab *dev*")
+local SuiSection = Sui:NewSection("GeuitYourGuisHere!")
+
+SuiSection:NewButton("MelonGuiHub", "GuiScript", function()
+   loadstring(game:HttpGet("https://pastefy.app/mw6rEGWU/raw"))()
+end)
+
+SuiSection:NewButton("C00lKidd *CLIENT*", "GuiScript", function()
+   loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+end)
+
+SuiSection:NewButton("1x1x1x1 *CLIENT*", "GuiScript", function()
+   loadstring(game:HttpGet("https://pastefy.app/veI2qr7m/raw"))()
+end)
+
+
+local Kavo = Window:NewTab("Script-$ *dev*")
+local KavoSection = Kavo:NewSection("GetHere!")
+
+KavoSection:NewButton("M-keyboard", "UsedScript", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/GGH52lan/GGH52lan/main/keyboard.txt"))()
+end)
+
+KavoSection:NewButton("CrackedDeltaKeyboard", "UsedScript", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/deltakeyboardcrack.txt", true))()
+end)
+
+KavoSection:NewButton("Fly-V3", "UsedScript", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+end)
+
+KavoSection:NewButton("Speed&Jp-Changer", "UsedScript", function()
+   loadstring(game:HttpGet("https://pastefy.app/Tc2DgNpI/raw"))()
+end)
+
+KavoSection:NewButton("Infinite-Jump", "UsedScript", function()
+   loadstring(game:HttpGet("https://pastefy.app/OpWdjPha/raw"))()
+end)
+
+KavoSection:NewButton("Lightux-esp", "UsedScript", function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/UNIVERSALESPLTX/main/README.md'),true))()
+end)
+
+KavoSection:NewButton("Arceus-Aimbot", "UsedScript", function()
+   loadstring(game:HttpGet("https://pastefy.app/2yJPba9Q/raw"))()
+end)
+
+KavoSection:NewButton("Noclip-Script", "UsedScript", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/B5xRxTnk",true))() 
+end)
+
+KavoSection:NewButton("TpTool *USEFUL*", "UsedScript", function()
+   loadstring(game:HttpGet("https://pastefy.app/380ZhbdK/raw"))() 
+end)
